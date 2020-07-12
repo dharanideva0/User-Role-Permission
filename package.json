@@ -1,0 +1,30 @@
+{
+    "name": "User-Role-Based-Permission",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "cross-env NODE_ENV=test jest --testTimeout=10000",
+        "start": "nodemon server.js",
+        "testwatch": "jest --watchAll",
+        "pretest": "cross-env NODE_ENV=test npm run "
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/jest": "^26.0.4",
+        "chai": "^4.2.0",
+        "chai-http": "^4.3.0",
+        "express": "^4.17.1",
+        "mocha": "^8.0.1",
+        "mysql2": "^2.1.0",
+        "sequelize": "^6.3.0",
+        "sequelize-cli": "^6.2.0",
+        "upper-case": "^2.0.1"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.2",
+        "supertest": "^4.0.2"
+    }
+}
